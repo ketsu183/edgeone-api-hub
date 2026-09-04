@@ -1,18 +1,7 @@
 {
-  "name": "api-hub-edgeone-pages",
+  "name": "telegram-proxy-edgeone",
   "version": "1.0.0",
   "description": "Telegram Bot API Proxy on EdgeOne Pages",
   "type": "module",
-  "scripts": {
-    "build": "echo 'Build completed'",
-    "deploy": "edgeone pages deploy"
-  },
-  "license": "MIT",
-  "dependencies": {},
-  "edgeone": {
-    "compatibility_date": "2025-09-25",
-    "edge_functions": {
-      "enabled": true
-    }
-  }
+  "license": "MIT"
 }
