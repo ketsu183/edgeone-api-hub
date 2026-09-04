@@ -1,8 +1,9 @@
-// EdgeOne Pages Function - Telegram Bot API Proxy
-// File: functions/telegram/[[default]].js
+// EdgeOne Pages Edge Function - Telegram Bot API Proxy
+// File: edge-functions/telegram/[[default]].js
 // Route: /telegram/* -> https://api.telegram.org/*
 
-export async function onRequest({ request }) {
+export async function onRequest(context) {
+  const { request } = context;
   const url = new URL(request.url);
 
   // Remove /telegram prefix and forward to api.telegram.org
